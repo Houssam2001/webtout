@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Segoe UI Symbol');
+
+.feature {
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 10%;
+    /*position: relative;*/
+    /*display: block;*/
+    /*padding-bottom: 20px;*/
+    /*font-family: "Segoe UI Symbol",sans-serif;*/
+    color: #040510;
+    height: 300px;
+}
+
+.para {
+    margin: 1px;
+    padding: 11px;
+    /*display: block;*/
+    width: 300px;
+    /*position: initial;*/
+}
+
+.h1 {
+    margin: 0;
+    font-size: 50%;
+}
+
+/*h1{*/
+
+/*    margin:0;*/
+/*    padding: 0;*/
+/*    font-size: 31px;*/
+
+/*}*/
+.panel {
+    /*padding-bottom: 50px;*/
+    /*margin: 7px;*/
+    font-size: 70px;
+    /*border: gray 5px solid;*/
+}
