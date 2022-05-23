@@ -74,7 +74,11 @@
 /*    color: #167bff;*/
 /*}*/
 
+.titre{
 
+    color: #000000;
+    text-decoration: black;
+}
 
 body{
     background:#eee;

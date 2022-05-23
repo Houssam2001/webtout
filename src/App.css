@@ -112,7 +112,7 @@
 .first_text {
     /*width: 50%;*/
     margin: 0;
-
+z-index: 70;
     height: 700px;
     overflow: hidden;
     /*margin-right: 50%;*/

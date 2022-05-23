@@ -1,13 +1,14 @@
 import './App.css';
-import Index from "./pages/index";
-import React, {useEffect, useRef, useState} from "react";
+import Index from '../src/components/index'
+import React, {useEffect} from "react";
 import 'aos/dist/aos.css'
 import AOS from 'aos'
 import {Container, Row, Col, FormControl, Button, Form} from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.css'
-import Feature from "./pages/features";
-import StatusCard from "./pages/components/status-card/StatusCard";
-import AppBar from "./pages/components/appBar/AppBar";
+import Feature from "./components/features";
+import StatusCard from "./components/status-card/StatusCard";
+import AppBar from "./components/appBar/AppBar";
+import 'boxicons/css/boxicons.css'
 
 let statusCards = [
     {
@@ -81,7 +82,7 @@ function App() {
 
                         </div>
                     </Col>
-                    <Col className='second' data-aos='fade-left'><Index/></Col>
+                    <Col className='second' data-aos='fade-left' data-aos-duration="90000"><Index/></Col>
                 </Row>
             </Container>
             <div data-aos='fade-up' className='la'><Feature/></div>
@@ -113,7 +114,8 @@ function App() {
 
                 </Row>
             </div>
-<div className='ford section-padding ' style={{backgroundColor:'black',height:'200px'}}> <h1 style={{color:'white',textAlign:'center'}}>WebTout</h1></div>
+            <div className='ford section-padding ' style={{backgroundColor: 'black', height: '200px'}}><h1
+                style={{color: 'white', textAlign: 'center', paddingTop: '70px'}}>WebTout</h1></div>
             <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
 
             <div id="contact" className="contact-area section-padding">
