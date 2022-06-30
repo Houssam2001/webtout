@@ -22,18 +22,19 @@ const Layout = () => {
     return (
         <div>
             <Router>
-                {!user ? <Routes>
+                {!user ?
+                <Routes>
                         <Route path="/" exact element={<App/>}/>
                         <Route path="/signUp" element={<SignUp/>}/>
                         <Route path="/market" element={<Market/>}/>
-
+                        <Route path="/editor" element={<Editor/>}/>
                         <Route element={<Page404/>} path={'*'}/>
                         <Route path="/login" element={<Login/>}/>
-                </Routes> :
+                </Routes>:
                     (<MaterialUIControllerProvider> <App1/></MaterialUIControllerProvider>)}
-                {/*<Routes>*/}
-                {/*    <Route path="/editor" element={<SiteEdit/>}/>*/}
-                {/*</Routes>*/}
+                <Routes>
+                    <Route path="/editor" element={<Editor/>}/>
+                </Routes>
             </Router>
 
         </div>

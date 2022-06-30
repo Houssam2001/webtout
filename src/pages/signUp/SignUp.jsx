@@ -15,10 +15,10 @@ const SignUp = () => {
         if (!username) alert("Please enter name");
         registerWithEmailAndPassword(username, email, password);
     };
-    useEffect(() => {
-        if (loading) return;
-        if (user) history("/editor");
-    }, [user, loading]);
+    // useEffect(() => {
+    //     if (loading) return;
+    //     if (user) history("/editor");
+    // }, [user, loading]);
     const FacebookBackground =
         "linear-gradient(to right, #0546A0 0%, #0546A0 40%, #663FB6 100%)";
     const InstagramBackground =

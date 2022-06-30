@@ -10,7 +10,7 @@ const Feature = () => {
             </div>
             <div>
 
-                <Container  >
+                <Container  className='cont'>
 
 
                             <Row>
